@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Table and Form</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bootstrap Table and Form</h1>
+    <table id="myTable" class="table table-striped">
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>aaa</td>
+          <td>bbb</td>
+          <td>ccc</td>
+        </tr>
+        <tr>
+          <td>ddd</td>
+          <td>eee</td>
+          <td>fff</td>
+        </tr>
+      </tbody>
+    </table>
+    <form id="myForm" class="form-inline">
+      <div class="form-group">
+        <label for="column1">Column 1:</label>
+        <input type="text" class="form-control" id="column1">
+      </div>
+      <div class="form-group">
+        <label for="column2">Column 2:</label>
+        <input type="text" class="form-control" id="column2">
+      </div>
+      <div class="form-group">
+        <label for="column3">Column 3:</label>
+        <input type="text"  class="form-control" id="column3">
+      </div>
+      <button tid="addrow" type="submit" style="border : 2px solid black"  class="btn btn-outline">Add Row</button>
+    </form>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
